@@ -125,6 +125,7 @@ alias dlt='rm -rf'
 alias runand='react-native run-android'
 alias runios='react-native run-ios'
 alias rni='react-native init'
+alias startredis='redis-server /usr/local/etc/redis.conf'
 alias chromenocors='open /Applications/Google\ Chrome.app --args --disable-web-security --user-data-dir'
 
 # tabtab source for serverless package
