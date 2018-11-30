@@ -129,6 +129,8 @@ alias runios='react-native run-ios'
 alias rni='react-native init'
 alias startredis='redis-server /usr/local/etc/redis.conf'
 alias chromenocors='open /Applications/Google\ Chrome.app --args --disable-web-security --user-data-dir'
+alias dk-open='open -a Docker'
+alias dk-close='killall Docker'
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
