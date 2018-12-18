@@ -3,5 +3,7 @@
 
 
 HOW TO SET PRETTIER FOR WEBSTORM!
-![](https://puu.sh/BecBz/a25543d1a7.png)
 
+1. install Prettier globally
+2. -image-
+![](https://puu.sh/Cjs6w/1f7ff61f06.png)
