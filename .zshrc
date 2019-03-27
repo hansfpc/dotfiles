@@ -118,6 +118,7 @@ alias ga='git add'
 alias gc='git commit -m'
 alias gst='git status'
 alias cls='clear'
+alias CLS='clear'
 alias pushall='git push --all origin'
 alias ns='npm start'
 alias ys='yarn start'
@@ -131,6 +132,11 @@ alias startredis='redis-server /usr/local/etc/redis.conf'
 alias chromenocors='open /Applications/Google\ Chrome.app --args --disable-web-security --user-data-dir'
 alias dk-open='open -a Docker'
 alias dk-close='killall Docker'
+alias itau="echo '589693218159079021' | pbcopy && echo 'Account Copied!' "
+alias astudio="cd /Applications/Android\ Studio.app/Contents/MacOS/ && sudo ./studio"
+alias showlogcat="adb logcat *:S ReactNative:V ReactNativeJS:V"
+alias brawler="echo '#R2JPPRRO' | pbcopy && echo 'BrawlStars Code Copied!' "
+alias rndevmenu='adb shell input keyevent KEYCODE_MENU'
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
