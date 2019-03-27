@@ -65,6 +65,11 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+
+ZSH_THEME="agnoster"
+
+DISABLE_AUTO_TITLE="true"
+
 plugins=(
   git
 )
@@ -105,6 +110,10 @@ source $ZSH/oh-my-zsh.sh
 function take() {
     mkdir $1
     cd $1
+}
+
+function tabtitle {
+    echo -ne "\033]0;"$*"\007"
 }
 
 # Prompt
