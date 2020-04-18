@@ -142,6 +142,7 @@ alias chromenocors='open /Applications/Google\ Chrome.app --args --disable-web-s
 alias dk-open='open -a Docker'
 alias dk-close='killall Docker'
 alias itau="echo '589693218159079021' | pbcopy && echo 'Account Copied!' "
+alias bsinvite="echo 'https://link.brawlstars.com/invite/friend/en?tag=R2JPPRR0&token=je2nnp8t' | pbcopy && echo 'BS Invite Copied!' "
 alias astudio="cd /Applications/Android\ Studio.app/Contents/MacOS/ && sudo ./studio"
 alias showlogcat="adb logcat *:S ReactNative:V ReactNativeJS:V"
 alias brawler="echo '#R2JPPRRO' | pbcopy && echo 'BrawlStars Code Copied!' "
