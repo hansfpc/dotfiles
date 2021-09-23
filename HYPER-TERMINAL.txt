@@ -1,2 +1,0 @@
-1-INSTALL HYPER
-2- https://github.com/wesbos/dotfiles/blob/master/.hyper.js
