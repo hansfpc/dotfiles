@@ -103,6 +103,11 @@ function take() {
     cd $1
 }
 
+# check npm package latest version
+function latest() {
+    npm show $1 version
+}
+
 function tabtitle {
     echo -ne "\033]0;"$*"\007"
 }
