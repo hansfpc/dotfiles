@@ -134,6 +134,7 @@ alias rndevmenu='adb shell input keyevent KEYCODE_MENU'
 alias gbcl='gatsby clean && cls'
 alias dudu='du -sh *'
 # alias kubectl="kubecolor"
+# alias kk="kubecolor"
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
